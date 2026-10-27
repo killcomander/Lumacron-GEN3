@@ -1,14 +1,26 @@
 {
-  "name": "Zündkerzen Wecker",
-  "version": "OS GEN3",
+  "name": "Z\u00fcndkerzen Wecker",
+  "version": "OS GEN3 V18.26 (2026-10-27)",
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "Lumatron_OS_GEN3_SAUBER.ino.bootloader.bin", "offset": 4096 },
-        { "path": "Lumatron_OS_GEN3_SAUBER.ino.partitions.bin", "offset": 32768 },
-	{ "path": "boot_app0.bin", "offset": 57344 },
-        { "path": "Lumatron_OS_GEN3_SAUBER.ino.bin", "offset": 65536 }
+        {
+          "path": "Lumatron_OS_GEN3_SAUBER.ino.bootloader.bin",
+          "offset": 4096
+        },
+        {
+          "path": "Lumatron_OS_GEN3_SAUBER.ino.partitions.bin",
+          "offset": 32768
+        },
+        {
+          "path": "boot_app0.bin",
+          "offset": 57344
+        },
+        {
+          "path": "Lumatron_OS_GEN3_SAUBER.ino.bin",
+          "offset": 65536
+        }
       ]
     }
   ]
